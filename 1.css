@@ -1,0 +1,155 @@
+html {
+  font-family: Microsoft YaHei;
+}
+#backgroundD {
+	position: fixed;
+    background-size: cover;
+    background-image: url('img/background2.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+	top: 0%;
+	left: 0%;
+	width: 100%;
+	height: 100%;
+	z-index: -998;
+}
+#mainD {
+	position: absolute;
+	top: 17%;
+	left: 25%;
+	width: 800px;
+	height: 900px;
+	background-color: rgba(0, 0, 0, 0.5);
+	padding: 5px 5px;
+	border-radius: 20px;
+	color: white;
+	font-size: 20px;
+	margin-bottom: 50px;
+}
+#indexD	{
+	position: fixed;
+	top: 20%;
+	right: -195px;
+	width: 200px;
+	height: 480px;
+	background: rgba(0, 0, 0, 0.25);
+	padding: 10px 20px;
+	border-radius: 10px;
+	margin-top: -50px;
+	-webkit-transition: 0.6s;
+}
+#indexD:hover{
+	right: 10px;
+	-webkit-transition: 0.6s;
+}
+#indexC {
+	font-size: 22px;
+}
+.indexP {
+	font-size: 22px;
+	color: 	#DDDDDD;
+}
+.indexP:hover {
+	color: white;
+}
+#gotopD {
+	position: fixed;
+	top: 92%;
+	left: 92%;
+	height: 20px;
+	width: 20px;
+	background: rgba(0, 0, 0, 0.4);
+	padding: 10px 20px;
+	border-radius: 10px;
+	color: white;
+}
+#gotopP {
+	position: absolute;
+	top: -16%;
+	left: 24%;
+	width: 60px;
+	height: 30px;
+}
+#gotoD {
+	position: absolute;
+	top: 25%;
+	left: 8%;
+	width: 100px;
+	height: 400px;
+	background-color: rgba(255, 255, 255, 0.4);
+	padding: 10px 20px;
+	border-radius: 10px;
+	-webkit-transition: 0.5s;
+}
+.coverflow{
+width: 290px;
+height: 290px;
+top: 580px;
+left: 240px;
+position: absolute;
+}
+.coverflow>a{
+display: block;
+position: absolute;
+top:0;
+left:200;
+opacity: 0;
+    filter: alpha(opacity=0);
+    /*當圖片數量增加，影片長度需更改，變為5s*圖片數量*/
+    -webkit-animation: silder 9s linear infinite;
+    animation: silder 9s linear infinite;
+}
+.coverflow>a>img{
+max-width: 100%;
+}
+
+/*動畫關鍵影格*/
+@-webkit-keyframes silder {
+    3% {
+        opacity: 1;
+        filter: alpha(opacity=100);
+    }
+    27% {
+        opacity: 1;
+        filter: alpha(opacity=100);
+    }
+    30% {
+        opacity: 0;
+        filter: alpha(opacity=0);
+    }
+}
+@keyframes silder {
+    3% {
+        opacity: 1;
+        filter: alpha(opacity=100);
+    }
+    27% {
+        opacity: 1;
+        filter: alpha(opacity=100);
+    }
+    30% {
+        opacity: 0;
+        filter: alpha(opacity=0);
+    }
+}
+
+/*每個圖片各延遲5秒*/
+.coverflow>a:nth-child(3) {
+-webkit-animation-delay: 6s;
+        animation-delay: 6s;            
+}
+
+.coverflow>a:nth-child(2) {
+-webkit-animation-delay: 3s;
+        animation-delay: 3s;
+}
+
+.coverflow>a:nth-child(1) {
+-webkit-animation-delay: 0s;
+        animation-delay: 0s;    
+}
+/*滑入時停止播放*/
+.coverflow:hover>a{
+    -webkit-animation-play-state: paused;
+            animation-play-state: paused;
+}
