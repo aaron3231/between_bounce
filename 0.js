@@ -81,14 +81,14 @@ function loop() {
   ctx.fillRect(0,0,width,height);
 
   while(balls.length < 25) {
-    var size = random(10,20);
+    var size = 15;
     var ball = new Ball(
       // ball position always drawn at least one ball width
       // away from the adge of the canvas, to avoid drawing errors
       random(0 + size,width - size),
       random(0 + size,height - size),
-      random(-7,7),
-      random(-7,7),
+      random(-2, 2),
+      random(5, 7),
       'rgb(' + random(0,255) + ',' + random(0,255) + ',' + random(0,255) +')',
       size
     );
