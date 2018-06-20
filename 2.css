@@ -16,7 +16,7 @@ html {
 #mainD {
 	position: absolute;
 	top: 17%;
-	left: 25%;
+	left: 18%;
 	width: 760px;
 	height: 600px;
 	background-color: rgba(0, 0, 0, 0.5);
@@ -29,7 +29,7 @@ html {
 #mainE {
 	position: absolute;
 	top: 800px;
-	left: 25%;
+	left: 18%;
 	width: 760px;
 	height: 1750px;
 	background-color: rgba(0, 0, 0, 0.5);
@@ -42,7 +42,7 @@ html {
 #mainF {
 	position: absolute;
 	top: 2590px;
-	left: 25%;
+	left: 18%;
 	width: 760px;
 	height: 750px;
 	background-color: rgba(0, 0, 0, 0.5);
@@ -54,7 +54,7 @@ html {
 #mainG {
 	position: absolute;
 	top: 3380px;
-	left: 25%;
+	left: 18%;
 	width: 760px;
 	height: 2150px;
 	background-color: rgba(0, 0, 0, 0.5);
@@ -67,7 +67,7 @@ html {
 #mainH {
 	position: absolute;
 	top: 5580px;
-	left: 25%;
+	left: 18%;
 	width: 760px;
 	height: 1450px;
 	background-color: rgba(0, 0, 0, 0.5);
@@ -80,7 +80,7 @@ html {
 #mainI {
 	position: absolute;
 	top: 7070px;
-	left: 25%;
+	left: 18%;
 	width: 760px;
 	height: 900px;
 	background-color: rgba(0, 0, 0, 0.5);
@@ -120,7 +120,7 @@ html {
 #gotopD {
 	position: fixed;
 	top: 92%;
-	left: 92%;
+	left: 88%;
 	height: 20px;
 	width: 20px;
 	background: rgba(0, 0, 0, 0.4);
@@ -138,7 +138,7 @@ html {
 #gotoD {
 	position: absolute;
 	top: 22%;
-	left: 10%;
+	left: 5%;
 	width: 100px;
 	height: 270px;
 	background-color: rgba(255, 255, 255, 0.8);

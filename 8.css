@@ -15,16 +15,15 @@ html {
 }
 #mainD {
 	position: absolute;
-	top: 17%;
-	left: 25%;
-	width: 800px;
+	top: 13%;
+	left: 19%;
+	width: 700px;
 	height: 500px;
 	background-color: rgba(0, 0, 0, 0.6);
 	padding: 5px 5px;
 	border-radius: 20px;
 	color: white;
 	font-size: 20px;
-	margin-bottom: 50px;
 }
 #indexD	{
 	position: fixed;
@@ -58,7 +57,7 @@ html {
 	color: white;
 }
 table {
-			margin-left: 180px;
+			margin-left: 130px;
             border-collapse: collapse;
 			line-height: 14px;
         }
@@ -91,13 +90,13 @@ table {
             height: 50px;
         }
 #restartBtn {
-	margin-left: 250px;
+	margin-left: 230px;
 }
 #gotoD {
 	position: absolute;
 	top: 15%;
-	left: 8%;
-	width: 180px;
+	left: 1%;
+	width: 165px;
 	height: 400px;
 	background-color: rgba(255, 255, 255, 0.7);
 	padding: 10px 20px;

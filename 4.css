@@ -17,7 +17,7 @@ html {
 #mainD {
 	position: absolute;
 	top: 17%;
-	left: 25%;
+	left: 18%;
 	width: 760px;
 	height: 4600px;
 	background-color: rgba(0, 0, 0, 0.5);
@@ -31,7 +31,7 @@ html {
 t {color:navy;font-weight: bold;font-size: 25px;}
 #indexD	{
 	position: fixed;
-	top: 20%;
+	top: 18%;
 	right: -195px;
 	width: 200px;
 	height: 480px;
@@ -59,7 +59,7 @@ t {color:navy;font-weight: bold;font-size: 25px;}
 #gotopD {
 	position: fixed;
 	top: 92%;
-	left: 92%;
+	left: 88%;
 	height: 20px;
 	width: 20px;
 	background: rgba(0, 0, 0, 0.4);
@@ -73,7 +73,7 @@ iframe {
 #gotoD {
 	position: absolute;
 	top: 22%;
-	left: 10%;
+	left: 5%;
 	width: 100px;
 	height: 430px;
 	background-color: rgba(255, 255, 255, 0.8);

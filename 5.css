@@ -16,7 +16,7 @@ html {
 #mainD {
 	position: absolute;
 	top: 17%;
-	left: 25%;
+	left: 17%;
 	width: 800px;
 	height: 500px;
 	background-color: rgba(0, 0, 0, 0.6);
@@ -30,7 +30,7 @@ html {
 	position: fixed;
 	top: 20%;
 	right: -195px;
-	width: 200px;
+	width: 180px;
 	height: 480px;
 	background: rgba(0, 0, 0, 0.25);
 	padding: 10px 20px;
@@ -39,7 +39,7 @@ html {
 	-webkit-transition: 0.6s;
 }
 #indexD:hover{
-	right: 10px;
+	right: 5px;
 	-webkit-transition: 0.6s;
 }
 #indexC {
@@ -56,7 +56,7 @@ html {
 #gotoD {
 	position: absolute;
 	top: 22%;
-	left: 11%;
+	left: 1%;
 	width: 120px;
 	height: 230px;
 	background-color: rgba(255, 255, 255, 0.8);
