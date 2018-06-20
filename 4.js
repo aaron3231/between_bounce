@@ -12,7 +12,7 @@ $(window).scroll(function() {
 	if ( $(this).scrollTop() > 300){
 		var scrolls = $(window).scrollTop();
 		$('#gotopD').fadeIn("fast");
-		$('#gotoD').css("top", (scrolls + 200) + "px");
+		$('#gotoD').css("top", (scrolls + 100) + "px");
 	}
 	else {
 		$('#gotopD').stop().fadeOut("fast");
